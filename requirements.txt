@@ -21,6 +21,7 @@ from sklearn.compose import make_column_transformer
 from category_encoders import *
 from sklearn.model_selection import *
 import statistics
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 
 import warnings
 
